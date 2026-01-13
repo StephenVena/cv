@@ -1,26 +1,45 @@
 html{
     font-family: 'Times New Roman', Times, serif;
-    background-color: blue;
+    background-color:black;
     color: white;
 }
 
 .header{
     font-size: larger;
     text-align: center;
+    justify-content: center;
     margin: 3px;
 }
 
+.header h1{
+    background-color:darkblue;
+    padding: 20px;
+    border-radius: 10%;
+    text-align: center;
+    width: 60%;
+    margin-left: 100px;
+}
 .content{
     display: flex;
     width: 80%;
     gap: 5%;
-    margin-left: 10%;
 }
 
 .content p{
     text-align: center;
-    background-color: aqua;
-    color: black;
+    background-color:darkblue;
+    color: white;
     padding: 20px;
     border-radius: 10%;
+    margin-left: 50px;
+}
+.footer{
+   text-align: center; 
+   background-color:darkblue;
+   color:beige;
+   padding: 10px;
+   width: 20%;
+   margin-left: 540px;
+   border-radius: 25%;
+   
 }
